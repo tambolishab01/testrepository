@@ -14,9 +14,5 @@ steps:
   displayName: 'Run a one-line script'
 
 - script:  echo "Hello World " >> /temp/test.txt
-  displayName: 'shabscript script'
+  displayName: 'Run a one-line script'
  
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
