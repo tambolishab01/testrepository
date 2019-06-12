@@ -10,9 +10,8 @@ pool:
   name:'shabpool'
 
 steps:
-- script: echo Hello, world!
+- script: 
+    echo Hello, world!
+    echo Thid is build pipeline
   displayName: 'Run a one-line script'
 
-- script:  echo "Hello World " >> /temp/test.txt
-  displayName: 'Run a one-line script'
- 
