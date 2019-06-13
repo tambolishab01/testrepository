@@ -15,5 +15,5 @@ steps:
     echo Thid is build pipeline
   displayName: 'Run a one-line script'
 
-- script:  echo "Hello World " >> /temp/test.txt
+- script:  echo "Hello World " >> /tmp/test.txt
   displayName: 'Run a one-line script1'
